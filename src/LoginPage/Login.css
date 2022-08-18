@@ -1,0 +1,66 @@
+.login-body{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);  
+    
+}
+
+.login-show{
+    background-color: white;
+    width: 96%;    
+    padding: 15px;
+    border-radius: 8px;
+}
+.login-form{
+   box-shadow: 5px 10px 20px silver;
+   border-radius: 8px;
+}
+.social-border{
+    border: 1px solid rgb(121, 113, 113);
+    width: 35%;
+    margin: 5px;
+}
+.logo-header{
+    width: 45%;
+    border: 1px solid rgb(226, 13, 162);
+    padding: 10px;
+    text-align: center;
+    margin: 10px 20px;
+    height: 45px;
+    border-radius: 5px;
+    color:rgb(226, 13, 162) ;
+    cursor: pointer;
+}
+.login-facebook{
+    border: 1px solid rgb(34, 13, 226);
+    color:rgb(34, 13, 226) ;
+}
+.logo-header img{
+    height: 25px;
+    width: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .login-body{
+        padding:10px;
+    }
+    .login-show{
+        width: 99%;
+        padding: 10px;
+    }
+    .social-border{
+     width: 20%;
+    }
+    .logo-header{
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+@media screen and (max-width:450px) {
+    .logo-header{
+        height: 70px;
+    }
+}
